@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Star Media</title>
+    <title>Three Stars Media</title>
 </head>
-
 <body>
-
     <header>
         <nav>
+            <!-- logo image, navigation, search bar -->
             <div class="container">
-                <img src="images/logo.png" alt="Three Star Media">
+                <img src="images/logo.png" alt="Three Stars Media">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
@@ -21,63 +19,181 @@
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <form>
-                    <input type="search">
-                    <button>&#128270;</button>
-                </form>
+                <input type="search" id="site-search" placeholder="Search">
+                <button>&#128269;</button>
             </div> <!-- end container -->
         </nav>
 
         <div class="header-welcome">
             <div class="container">
+                <!-- main banner img, h1, paragraph, button -->
+                <img src="images/main-banner.jpg" alt="Welcome to Three Stars Media">
                 <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum
-                    similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga
-                    voluptatibus facilis iusto consequuntur!</p>
-                <button>Connect with us ▶</button>
-            </div> <!-- end container -->
-        </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil
+                laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto
+                consequuntur!</p>
+                <button><a href="#">Connect with us ▶</a></button>
+            </div> <!-- end container-->
+        </div> <!-- end header-welcome-->
     </header>
-
 
     <main>
         <section class="section-about">
+            <!-- about img, h2, paragraph -->
             <div class="container">
-                <!-- Image on the left, heading and paragraphs on the right using flexbox -->
-            </div><!-- end container -->
-        </section> <!-- end section-about -->
+                <img src="images/about-us.jpg" alt="About Us">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus
+                placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius
+                amet ad?</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt
+                reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
+            </div>
+        </section>
 
         <section class="section-services">
+            <!-- h2, 5 div's (each has img, h3, paragraph, button) -->
             <div class="container">
-                <!-- h2 heading, five divs each with h3, image, text and button, on a grid -->
-            </div><!-- end container -->
-        </section> <!-- end section-services -->
+                <div class="section-container">
+                    <h2>Our Services</h2>
+                </div>
+
+                <div class="section-container">
+                    <img src="images/digital.jpg" alt="Digital Transformation">
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error
+                    qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <button><a href="#">Digital Plans ▶</a></button>
+                </div>
+
+                <div class="section-container">
+                    <img src="images/marketing.jpg" alt="Marketing">
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error
+                    qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <button><a href="#">Marketing Plans ▶</a></button>
+                </div>
+
+                <div class="section-container">
+                    <img src="images/video.jpg" alt="Video Production">
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error
+                    qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <button><a href="#">Video Plans ▶</a></button>
+                </div>
+
+                <div class="section-container">
+                    <img src="images/web.jpg" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error
+                    qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <button><a href="#">Web Plans ▶</a></button>
+                </div>
+
+                <div class="section-container">
+                    <img src="images/print.jpg" alt="Print">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error
+                    qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <button><a href="#">Print Plans ▶</a></button>
+                </div>
+            </div> <!-- end container -->
+        </section>
 
         <section class="section-vision">
+            <!-- img, h2, paragraph, button -->
             <div class="container">
-                <!-- h3 heading, paragraph, button -->
-            </div><!-- end container -->
-        </section> <!-- end section-vision -->
+                <img src="images/vision.jpg" alt="Our Vision">
+                <h2>Our Vision</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi
+                veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
+                <button><a href="#">Learn More ▶</a></button>
+            </div> <!-- end container -->
+        </section>
 
         <section class="section-team">
+            <!-- h2, 4 div's (2 img's, 2 profiles (h3, h4, paragraph)) -->
             <div class="container">
-                <!-- h2 heading, 4 divs, 2 div pictures, 2 div profiles with h3, h4, paragraphs, on a grid -->
-            </div><!-- end container -->
-        </section> <!-- end section-team -->
+                <div class="section-container">
+                    <h2>Our Team</h2>
+                </div>
+
+                <div class="section-container">
+                    <img src="images/john.jpg" alt="John Doe">
+                </div>
+
+                <div class="section-container">
+                    <h3>John Doe</h3>
+                    <h4>CEO and Co-owner</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat
+                    similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                </div>
+
+                <div class="section-container">
+                    <img src="images/bob.jpg" alt="Bob Rite">
+                </div>
+
+                <div class="section-container">
+                    <h3>Bob Rite</h3>
+                    <h4>CFO and Co-owner</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat
+                    similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                </div>
+            </div> <!-- end container-->            
+        </section>
 
         <section class="section-contact">
+            <!-- h2, forms, google maps embed, table -->
             <div class="container">
-                <!-- h2, form, google maps embed, table, on a grid-->
-            </div><!-- end container -->
-        </section> <!-- end section-contact -->
-    </main>
+                <div class="section-container">
+                    <h2>Contact Us</h2>
+                </div>
 
+                <div class="section-container">
+                    <h3>Send us a message</h3>
+                    <label for="yourname"><form-title>Full Name</form-title><br></label>
+                    <input type="text" id="yourname" name="yourname">
+                    <br> <!-- Temporary break -->
+                    <label for="youremail"><form-title>Email</form-title><br></label>
+                    <input type="email" id="youremail" name="youremail">
+                    <br> <!-- Temporary break -->
+                    <label for="yourmessage"><form-title>Message</form-title><br></label>
+                    <textarea id="yourmessage" name="yourmessage"></textarea>
+                    <br> <!-- Temporary break -->
+                    <input type="submit" value="Send">
+                </div>
+
+                <div class="section-container">
+                    <h3>Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.0383062472383!2d-75.76397876511228!3d45.348039000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce071f3025ba19%3A0x4e8b1cef296bbd38!2sAlgonquin%20College%20-%20Building%20B!5e0!3m2!1sen!2sca!4v1669227138727!5m2!1sen!2sca" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="section-container"> 
+                    <table>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                        <tr>
+                            <th>Monday - Friday</th>
+                            <th>9 am - 6 pm</th>
+                        </tr>
+                        <tr>
+                            <th>Saturday - Sunday</th>
+                            <th>Closed</th>
+                        </tr>
+                    </table>
+                </div>
+            </div> <!-- end container-->
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <!-- two paragraphs -->
+            <p>© Copyright Three Star Media, 2020</p>
+            <p>All images are taken from Unsplash</p>
         </div> <!-- end container -->
     </footer>
 </body>
-
 </html>
